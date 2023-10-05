@@ -1,3 +1,4 @@
+exercices JS
 // // exercice 1
 // function comparaison(n1,n2) {
 //     if (n1==n2) {
@@ -75,24 +76,24 @@
 // }
 // }
 
-//exercice 7
+// exercice 7
 
-function compterVoyelles(chaine) {
-  chaine = chaine.toLowerCase();
-  let nombreDeVoyelles = 0;
+// function compterVoyelles(chaine) {
+//   chaine = chaine.toLowerCase();
+//   let nombreDeVoyelles = 0;
 
-  for (let i = 0; i < chaine.length; i++) {
-    const caractere = chaine[i];
+//   for (let i = 0; i < chaine.length; i++) {
+//     const caractere = chaine[i];
     
-    if (caractere === 'a' || caractere === 'e' || caractere === 'i' || caractere === 'o' || caractere === 'u' || caractere === 'y') {
-      nombreDeVoyelles++;
-    }
-  }
-  return nombreDeVoyelles;
-}
+//     if (caractere === 'a' || caractere === 'e' || caractere === 'i' || caractere === 'o' || caractere === 'u' || caractere === 'y') {
+//       nombreDeVoyelles++;
+//     }
+//   }
+//   return nombreDeVoyelles;
+// }
 
-// Exemple d'utilisation :
-const chaine = "Bonjour, ceci est un exemple.";
-const nombreDeVoyelles = compterVoyelles(chaine);
-console.log(`Le nombre de voyelles dans la chaîne "${chaine}" est : ${nombreDeVoyelles}`);
+// // Exemple d'utilisation :
+// const chaine = "Bonjour, ceci est un exemple.";
+// const nombreDeVoyelles = compterVoyelles(chaine);
+// console.log(`Le nombre de voyelles dans la chaîne "${chaine}" est : ${nombreDeVoyelles}`);
 
